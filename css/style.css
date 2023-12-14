@@ -299,3 +299,75 @@ body {
 textarea.form-control{
     border-radius: 16px;
 }
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        padding: 10px;
+        margin: 0 auto;
+    }
+    
+    .container {
+        width: 100%; 
+        padding: 0 10px; 
+    }
+
+    .navbar-nav{
+        padding: auto;
+    }
+
+    .big-header{
+        font-size: 32px;
+    }
+
+    .small-header{
+        font-size: 13px;
+    }
+
+    .primary-copy{
+        font-size: 12px;
+        text-align: start;
+        margin: 0 auto;
+    }
+
+    .btn-primary, .btn-secondary{
+        padding: 8px 16px 8px 16px;
+        font-size: 13px;
+    }
+
+    .badge{
+        margin: 0 auto;
+    }
+
+    .vwall{
+        text-align: center !important;
+    }
+
+    .keyft{
+        text-align: center;
+    }
+
+    .features .features-wrapper .icon{
+        float: left;
+        width: 30px;
+        height: 100px;
+        margin-right: 0 auto;
+    }
+
+    .features .features-wrapper .icon img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .features .features-wrapper .small-feature-card{
+        padding: 30px;
+        border-radius: 10px;
+        background-color: var(--white);
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+
+    .features .features-wrapper h3{
+        padding-top: 8px;
+    }
+}
