@@ -52,6 +52,14 @@ body {
     margin: 0;
 }
 
+.footer{
+    font-weight: var(--fwregular);
+    color: var(--darkgrey);
+    font-size: 13px;
+    line-height: 28px;
+    margin: 0;
+}
+
 .features-wrapper:hover .big-feature-card:not(:hover){
     filter: blur(3px);
     transition: all 0.3s ease;
@@ -346,10 +354,13 @@ textarea.form-control{
         margin-bottom: 20px;
     }
 
+    .copywriting .btn-primary, .copywriting .btn-secondary{
+        margin: 30px;
+    }
+
     .btn-primary, .btn-secondary{
         padding: 8px 16px 8px 16px;
         font-size: 13px;
-        margin: 30px;
     }
 
     .badge{
