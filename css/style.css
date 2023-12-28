@@ -306,7 +306,7 @@ textarea.form-control{
         padding: 10px;
         margin: 0 auto;
     }
-    
+
     .container {
         width: 100%; 
         padding: 0 10px; 
@@ -318,25 +318,42 @@ textarea.form-control{
 
     .big-header{
         font-size: 32px;
+        text-align: center;
     }
 
     .small-header{
         font-size: 13px;
     }
 
-    .primary-copy{
+    .copy .primary-copy{
         font-size: 12px;
         text-align: start;
-        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .copy .small-header{
+        text-align: start;
+    }
+
+    .copy{
+        text-align: center;
+    }
+
+    .primary-copy{
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     .btn-primary, .btn-secondary{
         padding: 8px 16px 8px 16px;
         font-size: 13px;
+        margin: 30px;
     }
 
     .badge{
-        margin: 0 auto;
+        margin-bottom: 20px;
     }
 
     .vwall{
@@ -350,7 +367,6 @@ textarea.form-control{
     .features .features-wrapper .icon{
         float: left;
         width: 30px;
-        height: 100px;
         margin-right: 0 auto;
     }
 
